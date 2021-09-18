@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(45, 22, 175);
+    width:100%;
+    height: 10%;
+    border:0;
+    display:inline;
+    position:relative
+}
+header a{
+    background-color: red;
+    color:white;
+}
+body {
+    /* more on this crazy alphanumerical value in a minute! */
+   background-color: rgb(7, 26, 51);
+    color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+.call{
+    background-color: red;
+    width:fit-content;
+    
+    position:absolute;
+
+}
+a{
+    text-decoration:none;
+}
+ul{
+    list-style: none;
+}
+ul li:before {
+    content: '✓';
+  }
+#first{
+    height:100vh;
+    background-image: url(../images/DTown.jpg);
+}
