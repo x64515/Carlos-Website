@@ -21,7 +21,6 @@ header{
 
 }
 
-
 section{
     padding:2%;
 }
@@ -33,13 +32,13 @@ header div a{
     border-radius: 50%;
     height: 100px;
     width: 200px;
-     float:right;
+    float:right;
     font-size: small;
     font-weight: bold;
     color:#ffffff;
 
 }
-header div a:hover{
+header  a:hover{
     background-color:darkred;
 }
 
@@ -64,11 +63,11 @@ ul li:before {
     text-align: center;
     display:flex;
     align-items: center;
+    font-size: 10vh;
     background-color: red;
     border-radius: 50%;
-    height: 100px;
-    width: 200px;
-     float:right;
+    height: 150px;
+    width: 300px;
     font-size: small;
     font-weight: bold;
     color:#ffffff;
@@ -94,17 +93,27 @@ table{
     align-items: center;
 }
 table th{
-    background-color: darkslategrey;
+    background-color: rgb(7, 26, 51);
     margin-right: 10px;
     padding:2px;
     height:50px;
+    color:#ffffff
 }
 table td{
     height:50px;
     margin: 2px;
     margin-right: 10px;
+    border: 2px, solid, black;
 }
 #first{
     height:100%vh;
     background-image: url(../images/DTown.jpg);
+}
+#why-sell-us{
+    background:white;
+    color:black;
+    align-items: center;
+}
+.table-even{
+    background-color: hsla(227, 0%, 64%, 0.61);
 }
