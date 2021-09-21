@@ -145,7 +145,15 @@ background: -webkit-linear-gradient(90deg, rgba(236,8,8,1) 0%, rgba(222,14,14,0.
 background: linear-gradient(90deg, rgba(236,8,8,1) 0%, rgba(222,14,14,0.7441351540616247) 24%, rgba(255,0,0,0.6993172268907564) 40%, rgba(209,16,16,0.9318102240896359) 63%, rgba(255,0,0,1) 90%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ec0808",endColorstr="#ff0000",GradientType=1);
 }
-
+.questionLi{
+    border-radius: 50%;
+    height: 100px;
+    width:100px;
+    border: 3%, solid, white;
+    float:left;
+    font-size: 100px;
+    margin-top: auto;
+}
 .hero-form {
     border: 3px solid #024e76;
     background-color: rgb(7, 26, 51);
@@ -165,3 +173,16 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ec0808",endCo
       margin: 5px 0 15px 0;
       color: white;
     }
+    #list-item{
+
+        width: auto;
+        float:right;
+    }
+#need-to-sell{
+    height:max-content;
+}    
+#need-to-sell div{
+    margin: 20px;
+    margin-left:0px;
+
+}
