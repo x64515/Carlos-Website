@@ -31,7 +31,7 @@ header div a{
     text-align: center;
     display:flex;
     align-items: center;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.76);
     border-radius: 50%;
     height: 100px;
     width: 200px;
@@ -39,6 +39,7 @@ header div a{
     font-size: small;
     font-weight: bold;
     color:#ffffff;
+ 
 
 }
 header  a:hover{
@@ -52,7 +53,7 @@ ul{
     list-style: none;
     font-size: larger;
 }
-ul li:before {
+#first ul li:before {
     content: '✓';
   }
 .container{
@@ -122,4 +123,8 @@ table td{
 }
 .table-even{
     background-color: hsla(227, 0%, 64%, 0.61);
+}
+#fourth{
+    background:white;
+    color:black;
 }
