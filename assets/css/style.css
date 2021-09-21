@@ -27,11 +27,18 @@ header{
 section{
     padding:2%;
 }
+
+
 header div a{
     text-align: center;
     display:flex;
     align-items: center;
+    padding:23px;
     background-color: rgba(255, 0, 0, 0.76);
+    
+    -webkit-box-shadow: 14px -2px 41px 17px 
+    rgba(0,0,0,0.52); 
+    box-shadow: 14px -2px 41px 17px rgba(0,0,0,0.52);
     border-radius: 50%;
     height: 100px;
     width: 200px;
@@ -65,6 +72,7 @@ ul{
 }
 .container a{
     text-align: center;
+    padding:30px;
     display:flex;
     align-items: center;
     font-size: 10vh;
@@ -75,7 +83,8 @@ ul{
     font-size: small;
     font-weight: bold;
     color:#ffffff;
-}
+     }
+
 .container a:hover{
     background-color:darkred;
 }
@@ -85,6 +94,7 @@ ul{
     flex-direction: column;
     text-align:center;
     align-content:space-around;
+    padding:10px;
 
 }
 .card i{
@@ -92,7 +102,7 @@ ul{
 }
 
 .card i div p{
-    padding: 50px;
+    padding: 75px;
 
 }
 table{
@@ -127,4 +137,11 @@ table td{
 #fourth{
     background:white;
     color:black;
+}
+.btngradient{
+background: rgb(236,8,8);
+background: -moz-linear-gradient(90deg, rgba(236,8,8,1) 0%, rgba(222,14,14,0.7441351540616247) 24%, rgba(255,0,0,0.6993172268907564) 40%, rgba(209,16,16,0.9318102240896359) 63%, rgba(255,0,0,1) 90%);
+background: -webkit-linear-gradient(90deg, rgba(236,8,8,1) 0%, rgba(222,14,14,0.7441351540616247) 24%, rgba(255,0,0,0.6993172268907564) 40%, rgba(209,16,16,0.9318102240896359) 63%, rgba(255,0,0,1) 90%);
+background: linear-gradient(90deg, rgba(236,8,8,1) 0%, rgba(222,14,14,0.7441351540616247) 24%, rgba(255,0,0,0.6993172268907564) 40%, rgba(209,16,16,0.9318102240896359) 63%, rgba(255,0,0,1) 90%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ec0808",endColorstr="#ff0000",GradientType=1);
 }
