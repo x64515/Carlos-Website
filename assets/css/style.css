@@ -145,3 +145,23 @@ background: -webkit-linear-gradient(90deg, rgba(236,8,8,1) 0%, rgba(222,14,14,0.
 background: linear-gradient(90deg, rgba(236,8,8,1) 0%, rgba(222,14,14,0.7441351540616247) 24%, rgba(255,0,0,0.6993172268907564) 40%, rgba(209,16,16,0.9318102240896359) 63%, rgba(255,0,0,1) 90%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ec0808",endColorstr="#ff0000",GradientType=1);
 }
+
+.hero-form {
+    border: 3px solid #024e76;
+    background-color: rgb(7, 26, 51);
+    
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+}
+
+       .hero-form h3 {
+      font-size: 24px;
+      margin: 0;
+      color: white;
+    }
+    
+    .hero-form p {
+      margin: 5px 0 15px 0;
+      color: white;
+    }
