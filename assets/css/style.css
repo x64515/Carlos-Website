@@ -54,6 +54,7 @@ header div a{
     font-size: small;
     font-weight: bold;
     color:#ffffff;
+    border-style:outset;
 }
 #first a span{
 font-size: medium;    
