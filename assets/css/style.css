@@ -28,6 +28,10 @@ header{
     padding: 1%;
 
 }
+header h2{
+    margin-left:25%;
+    text-align: center;
+}
 
 section{
     padding:2%;
@@ -40,7 +44,6 @@ header div a{
     align-items: center;
     padding:23px;
     background-color: rgba(255, 0, 0, 0.76);
-    
     -webkit-box-shadow: 14px -2px 41px 17px 
     rgba(0,0,0,0.52); 
     box-shadow: 14px -2px 41px 17px rgba(0,0,0,0.52);
@@ -51,8 +54,9 @@ header div a{
     font-size: small;
     font-weight: bold;
     color:#ffffff;
- 
-
+}
+#first a span{
+font-size: medium;    
 }
 header  a:hover{
     background-color:darkred;
@@ -64,6 +68,11 @@ a{
 ul{
     list-style: none;
     font-size: larger;
+}
+#first{
+    color:#024e76;
+    font-size: large;
+    height:100vh;
 }
 #first ul li:before {
     content: '✓';
@@ -164,7 +173,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ec0808",endCo
     background-color: rgb(7, 26, 51);
     
     padding: 20px;
-    width: 500px;
+    width: 50vw;
     color: #024e76;
 }
 
@@ -193,4 +202,31 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ec0808",endCo
 }
 .center{
     text-align: center;
+}
+footer{
+    align-text:bottom;
+}
+label{
+    color:#ffffff;
+
+}
+.get-offer{
+    text-align: center;
+    padding:30px;
+    display:flex;
+    align-items: center;
+    font-size: 10vh;
+    background-color: red;
+    border-radius: 50%;
+    height: 150px;
+    width: 300px;
+    font-size: small;
+    font-weight: bold;
+    color:#ffffff;
+}
+
+@media (orientation:portrait){
+    #first{
+        height:50vh;
+    }
 }
