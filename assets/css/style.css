@@ -227,6 +227,18 @@ label{
     color:#ffffff;
 }
 
+#fourth a{
+    text-align: center;
+    border-radius:20px 20px 20px 20px;
+    background-color: red;
+    color:white;
+    height:max-content;
+    width:auto;
+    padding:20px;
+    margin-top:5%;
+    
+}
+
 @media (orientation:portrait){
     #first{
         height:50vh;
