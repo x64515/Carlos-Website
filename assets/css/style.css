@@ -65,6 +65,11 @@ header  a:hover{
 
 a{
     text-decoration:none;
+    color:white;
+
+}
+a:hover{
+    color:darkred;
 }
 ul{
     list-style: none;
@@ -206,7 +211,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ec0808",endCo
     text-align: center;
 }
 footer{
-    align-text:bottom;
+    align-content:bottom;
+    font-size:xx-small;
 }
 label{
     color:#ffffff;
@@ -237,6 +243,9 @@ label{
     padding:20px;
     margin-top:5%;
     
+}
+#fourth a:hover{
+    color:darkred;
 }
 
 @media (orientation:portrait){
