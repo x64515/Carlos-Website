@@ -261,7 +261,7 @@ label{
     .hero-form{
         height:100vh;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         border:none;
         width: 95vw;
         align-content: center;
@@ -292,8 +292,7 @@ label{
     .hero-form button{
         text-align: center;
         padding:5px;
-        margin-left: 6em;
-        margin-top: .5em;
+      
     }
     .hero-form button:hover{
         background-color: darkred;
