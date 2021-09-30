@@ -184,6 +184,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ec0808",endCo
     width: 50vw;
     color: #024e76;
 }
+.hero-form button{
+    margin-left:2em;
+}
 
        .hero-form h3 {
       font-size: 24px;
@@ -249,6 +252,11 @@ label{
 #fourth a:hover{
     color:darkred;
 }
+.rounded-input{
+    border-radius: 10px;
+        padding:10px;
+        margin: 0.5em;
+}
 
 @media (orientation:portrait){
     #first{
@@ -260,7 +268,7 @@ label{
         font-size:large;
     }
     .hero-form{
-        height:100vh;
+
         display: flex;
         flex-direction: column;
         border:none;
@@ -272,8 +280,7 @@ label{
         text-align: center;
     }
     .rounded-input{
-        border-radius: 10px;
-        padding:10px;
+        
         width:100%;
         margin: 0.5em;
     
