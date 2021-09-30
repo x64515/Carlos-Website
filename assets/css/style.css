@@ -253,7 +253,7 @@ label{
 @media (orientation:portrait){
     #first{
         height:50vh;
-        overflow: scroll;
+
     }
     #form{
         width:100vw;
@@ -284,10 +284,13 @@ label{
         width:100%;
         resize:vertical;
         padding:15px;
+        margin-bottom: .5em;
     }
     .hero-form button{
         text-align: center;
-        margin-left: 3em;
+        padding:5px;
+        margin-left: 6em;
+        margin-top: .5em;
     }
     .hero-form button:hover{
         background-color: darkred;
