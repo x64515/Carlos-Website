@@ -145,6 +145,7 @@ table td{
 }
 #first{
     height:100vh;
+    background-repeat:no-repeat;
     background-image: url(../images/DTown.jpg);
 }
 #why-sell-us{
