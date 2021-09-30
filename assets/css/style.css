@@ -259,6 +259,7 @@ label{
         width:100vh;
     }
     .hero-form{
+        height:100vh;
         display: flex;
         flex-direction: row;
         border:none;
