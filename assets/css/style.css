@@ -253,12 +253,40 @@ label{
 @media (orientation:portrait){
     #first{
         height:50vh;
+        overflow: scroll;
     }
     #form{
         width:100vw;
     }
     .hero-form{
-        
+        border:none;
         width: 95vw;
+        align-content: center;
+    }
+    .hero-form h3{
+        margin:2em;
+        text-align: center;
+    }
+    .rounded-input{
+        border-radius: 10px;
+        padding:10px;
+        width:100%;
+        margin: 0.5em;em;
+    
+    }
+    select{
+        width:50%;
+        padding:10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    textarea{
+        width:100%;
+        resize:vertical;
+        padding:15px;
+    }
+    .hero-form button{
+        text-align: center;
+        margin-left: 3em;
     }
 }
