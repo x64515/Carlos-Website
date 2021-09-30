@@ -256,9 +256,11 @@ label{
 
     }
     #form{
-        width:100vw;
+        width:100vh;
     }
     .hero-form{
+        display: flex;
+        flex-direction: row;
         border:none;
         width: 95vw;
         align-content: center;
