@@ -189,6 +189,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ec0808",endCo
       margin: 0;
       color: white;
     }
+
     
     .hero-form p {
       margin: 5px 0 15px 0;
@@ -251,5 +252,12 @@ label{
 @media (orientation:portrait){
     #first{
         height:50vh;
+    }
+    #form{
+        height:100vh;
+    }
+    .hero-form{
+        height:100vh;
+        width: 100vw;
     }
 }
