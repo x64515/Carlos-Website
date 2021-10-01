@@ -185,8 +185,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ec0808",endCo
 .hero-form {
     display:flex;
     flex-direction: column;
-    justify-content:center;
-    align-items: center;
+    justify-content:stretch;
+    align-items: stretch;
     border: 3px solid white;
     background-color: rgb(7, 26, 51);
     
@@ -266,6 +266,7 @@ label{
     border-radius: 10px;
         padding:10px;
         margin: 0.5em;
+        width:46%;
 }
 
 @media (orientation:portrait){
@@ -280,7 +281,6 @@ label{
     .hero-form{
 
         display: flex;
-        justify-content: stretch;
         flex-direction: column;
         border:none;
         width: 95vw;
