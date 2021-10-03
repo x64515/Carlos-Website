@@ -270,9 +270,34 @@ label{
 }
 
 @media (orientation:portrait){
+
     #first{
         height:50vh;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    
 
+    }
+    .container{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .list-item{
+        margin-top:2rem;
+    }
+    .container a{
+        text-align: center;
+        justify-content: center;
+        border-radius:20px 20px 20px 20px;
+        background-color: red;
+        color:white;
+        height:5vh;
+        width:90vw;
+        padding:20px;
+        margin-top:5%;
     }
     #form{
         width:80vw;
