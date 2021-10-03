@@ -285,6 +285,12 @@ label{
         align-items: center;
         justify-content: space-around;
     }
+    .card{
+        font-size: 26px;
+        width: 500px;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
     .list-item{
         margin-top:2rem;
         padding-top:2em;
