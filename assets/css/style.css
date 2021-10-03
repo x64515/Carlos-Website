@@ -303,7 +303,8 @@ label{
         color:white;
         height:5vh;
         width:90vw;
-        padding:20px;
+        padding:10px;
+        font-size: larger;
         margin-top:5%;
     }
     #form{
